@@ -19,6 +19,8 @@ Almost dependencies are deprecated. Please follow instruction to fix:
 
 2. Open file `node_modules/metro/src/blacklist.js`, replace line 16 with `/node_modules[\/\\]react[\/\\]dist[\/\\].*/,`
 
+> Why I need to do this? (Expo-CLI ISSUE 1074)[https://github.com/expo/expo-cli/issues/1074]
+
 3. Run: `npm start`
 
 4. Open http://localhost:8081/index.html?hotreload
