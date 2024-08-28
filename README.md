@@ -9,7 +9,11 @@ Preview: https://rizalibnu.github.io/React-360-Virtual-Tour-Example/
 
 ## Running the project
 
-Almost dependencies are deprecated. Please run follow instruction:
+Almost dependencies are deprecated. Please follow instruction to fix:
+
+0. Make sure that Node.js version 12 - 16 (Check with this command: node -v). 
+
+> You can use this command `nvm use 16` to change your node version ([More info about nvm](https://github.com/nvm-sh/nvm)).
 
 1. Open CMD, run this command: `npm install --legacy-peer-deps`
 
