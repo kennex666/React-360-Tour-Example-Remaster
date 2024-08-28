@@ -1,13 +1,23 @@
 # React 360 Virtual Tour Example
 A Virtual Tour Example built with React 360
 
+Original Author: @rizalibnu
+
+Remaster and instruction by @Kennex666
+
 Preview: https://rizalibnu.github.io/React-360-Virtual-Tour-Example/
 
 ## Running the project
 
-1. `$ yarn install` or `$ npm run install`
-2. `$ yarn start` or `$ npm run start`
-3. open http://localhost:8081/index.html?hotreload
+Almost dependencies are deprecated. Please run follow instruction:
+
+1. Open CMD, run this command: `npm install --legacy-peer-deps`
+
+2. Open file `node_modules/metro/src/blacklist.js`, replace line 16 with `/node_modules[\/\\]react[\/\\]dist[\/\\].*/,`
+
+3. Run: `npm start`
+
+4. Open http://localhost:8081/index.html?hotreload
 
 
 ## Contributing and License
